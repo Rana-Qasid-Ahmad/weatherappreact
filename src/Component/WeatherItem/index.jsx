@@ -143,9 +143,7 @@ export default function index() {
             </div>
             <footer id="footer">
               <p>
-                &copy; FreeCodeCamp - 2015 | User: DannyCoder | Photo Credit:
-                Respective Owners on Flickr.com
-              </p>
+                React Project Create By Rana Qasid Ahmad  </p>
             </footer>
           </div>
         </div>

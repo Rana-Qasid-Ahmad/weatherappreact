@@ -22,6 +22,8 @@
    font-family: 'Roboto', sans-serif; 
    color: rgba(255,255, 255, 0.8);
    min-width: 100%;
+   max-width: 100%;
+   max-width: 100%  ;
    max-height: 100%;
  }
  
@@ -177,12 +179,33 @@
  }
  
  #footer {
-     font-size: 10px;
+     font-size: 1.2em;
      text-transform: capitalize;
-     color: rgba(255,255,255, 0.4)
-     
+     color: rgb(255 255 255);     
  }
  
  
  
  
+
+
+ @media screen and (max-width:700px) {
+   
+    .sunny{
+        overflow: hidden;
+    }
+    .vcenter{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #weather-condition{
+        flex-direction: column;
+    }
+    #temperature p{
+        font-size: 150px;
+    } 
+    #temperature p sup{
+        top:-100px
+    }
+ }
