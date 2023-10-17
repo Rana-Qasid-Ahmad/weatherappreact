@@ -37,7 +37,7 @@ export default function index() {
       <>
         <div className="sunny">
           <div className="container text-center vcenter">
-            <h1> Local Weather</h1>
+            <h1> </h1>
             <div className="panel panel-default">
               <div className="panel-body">
                 <div className="row">
@@ -46,15 +46,17 @@ export default function index() {
                       <i className="fa fa-map-marker"></i>&nbsp;&nbsp;
                       <span>
                         <input
-                          type="text" defaultValue={sLocation}
+                          type="text"
+                          defaultValue={sLocation}
                           id="searchLocationID"
                           onKeyDown={handleEventEnter}
                         />
+                        <i class="fa fa-search"></i>
                       </span>
                     </h3>
                   </div>
                   <div className="col-md-6 text-right temp-switch">
-                    <h3>
+                    {/* <h3>
                       <input
                         id="switch-temp"
                         type="checkbox"
@@ -65,7 +67,7 @@ export default function index() {
                         data-on-text="<i className='wi wi-fahrenheit'></i>"
                         data-off-text="<i className='wi wi-celsius'></i>"
                       />
-                    </h3>
+                    </h3> */}
                   </div>
                 </div>
                 <hr />
@@ -142,8 +144,7 @@ export default function index() {
               </div>
             </div>
             <footer id="footer">
-              <p>
-                React Project Create By Rana Qasid Ahmad  </p>
+              <p>React Project Create By Rana Qasid Ahmad </p>
             </footer>
           </div>
         </div>
